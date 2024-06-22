@@ -199,6 +199,7 @@
   }
 
   .body {
+   background-attachment: scroll;
   }
 
   .container__header {
