@@ -25,7 +25,6 @@
 .header {
   max-width: 1080px;
   margin-inline: auto;
-  margin-block: 20px;
 }
 
 .main {
@@ -81,6 +80,7 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
+  padding-top: 27px;
 }
 
 .block {
