@@ -13,20 +13,17 @@
 }
 
 .body {
-  height: 100vh;
-  font-family: var(--main-font-family);
-  background: url(../image/fon-3.jpg);
-  
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
+ height: 100vh;
+ width: 100vw;
+ background-image: url(../image/fon-3.jpg);
+ background-size: 100% 100%;
+ background-position: center center;
+ background-attachment: scroll;
 }
 
 .header {
   max-width: 1080px;
   margin-inline: auto;
-  background-attachment: scroll;
 }
 
 .main {
@@ -177,7 +174,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1080px;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -187,14 +184,6 @@
     margin-inline: 0;
   }
 
-  .header {
-    overflow: scroll;
-  }
-
-  .main {
-    overflow: scroll;
-  }
-
   .container {
     border-radius: 50px;
     margin-inline: 10px;
@@ -202,16 +191,17 @@
   }
 
   .body {
-   background: url(../image/fon3-mob.jpg);
+   max-width: 768px;
   }
 
   .container__header {
-    height: 97vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
   }
   .container-timer {
     flex-direction: column;
+    width: 100%;
   }
 
   .container-swap {
