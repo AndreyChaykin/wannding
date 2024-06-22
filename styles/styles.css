@@ -187,6 +187,10 @@ background-color: var(--main-color-card)
   margin-inline: 0;
  }
 
+.header {
+ overflow: scroll;
+}
+
 .main {
  overflow: scroll;
 }
