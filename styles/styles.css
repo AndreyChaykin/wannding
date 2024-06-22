@@ -180,7 +180,7 @@ background-color: var(--main-color-card)
  align-items: center;
 }
 
-@media (375px <= width <= 768px) {
+@media (width <= 768px) {
  .block {
   flex-direction: column;
   gap: 20px;
