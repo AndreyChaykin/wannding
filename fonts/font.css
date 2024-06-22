@@ -1,0 +1,11 @@
+@font-face {
+ font-family: 'evgenia w';
+ src: url(./evgenia_deco.ttf) format('ttf');
+ font-weight: normal;
+}
+
+@font-face {
+ font-family: 'appetite w';
+ src: url(./appetite.ttf) format('ttf');
+ font-weight: normal;
+}
