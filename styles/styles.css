@@ -16,6 +16,7 @@
   height: 100vh;
   font-family: var(--main-font-family);
   background: url(../image/fon-3.jpg);
+  
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,6 +26,7 @@
 .header {
   max-width: 1080px;
   margin-inline: auto;
+  background-attachment: scroll;
 }
 
 .main {
@@ -81,6 +83,7 @@
   flex-direction: column;
   gap: 25px;
   padding-top: 27px;
+  background-attachment: scroll;
 }
 
 .block {
@@ -199,7 +202,7 @@
   }
 
   .body {
-   background-attachment: scroll;
+   background: url(../image/fon3-mob.jpg);
   }
 
   .container__header {
