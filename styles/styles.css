@@ -20,6 +20,7 @@
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  background-attachment: fixed;
 }
 
 .header {
@@ -200,7 +201,6 @@
 
   .body {
     background-image: url(../image/fon3-mob.jpg);
-    background-attachment: fixed;
   }
 
   .container__header {
