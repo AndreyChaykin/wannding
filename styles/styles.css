@@ -205,6 +205,9 @@
 
   .body {
     background-image: url(../image/fon3-mob.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-height: 800px;
   }
 
   .container__header {
