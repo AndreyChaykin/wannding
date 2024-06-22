@@ -200,10 +200,11 @@
 
   .body {
     background-image: url(../image/fon3-mob.jpg);
+    background-attachment: fixed;
   }
 
   .container__header {
-    height: 97vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
   }
