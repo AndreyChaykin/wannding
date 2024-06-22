@@ -71,9 +71,10 @@
 .header__inner-title {
   font-size: 80px;
   color: var(--second-color-text);
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: var(--main-font-family);
+/*   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 200;
-  font-style: normal;
+  font-style: normal; */
 }
 
 .main {
