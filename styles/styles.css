@@ -13,7 +13,6 @@
 }
 
 .body {
- width: 100vw;
   height: 100vh;
   font-family: var(--main-font-family);
   background: url(../image/fon-3.jpg);
@@ -21,7 +20,7 @@
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  background-attachment:fixed;
+
 }
 
 .header {
@@ -200,9 +199,21 @@
     padding: 15px 15px;
   }
 
-  .body {
-    background-image: url(../image/fon3-mob.jpg);
-  }
+
+body:before {
+ content: '';
+ background-image: url(../image/fon3-mob.jpg);
+ position: fixed;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ z-index: -1;
+ width: 100vw;
+ background-size: cover;
+ background-position:center;
+ background-repeat: no-repeat;
+}
 
   .container__header {
     height: 100vh;
