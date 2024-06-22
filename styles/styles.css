@@ -13,14 +13,13 @@
 }
 
 .body {
-  height: 100vh;
   font-family: var(--main-font-family);
   background: url(../image/fon-3.jpg);
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  background-attachment: local;
+  background-attachment: fixed;
 }
 
 .header {
