@@ -180,7 +180,7 @@ background-color: var(--main-color-card)
  align-items: center;
 }
 
-@media (width <= 768px) {
+@media (max-width: 768px) {
  .block {
   flex-direction: column;
   gap: 20px;
@@ -203,6 +203,7 @@ background-color: var(--main-color-card)
 
  .body {
   background-image: url(../image/fon3-mob.jpg);
+  height: 100vh;
  }
 
  .container__header {
