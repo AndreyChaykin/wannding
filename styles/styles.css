@@ -207,7 +207,7 @@
    left: 0;
    background-repeat: no-repeat;
    background-position: bottom center;
-   background-image: url("/image/fon3-mob.jpg");
+   background-image: url("../image/fon3-mob.jpg");
    opacity: 1;
    z-index: -1;
   }
